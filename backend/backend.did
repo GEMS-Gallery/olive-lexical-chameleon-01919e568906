@@ -1,0 +1,5 @@
+service : {
+  getBitcoinPrice: () -> (opt float64);
+  getLastUpdateTime: () -> (int) query;
+  updatePrice: () -> ();
+}
